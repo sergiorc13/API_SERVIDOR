@@ -4,6 +4,7 @@ include_once 'Response.inc.php';
 include_once 'XMLReader.inc.php';
 include_once './variablesEntorno.inc.php';
 
+//Creamos la clase CatalogoLibros
 class CatalogoLibros extends ReaderXML {
 	private $permitidos = array(
 		'id',
